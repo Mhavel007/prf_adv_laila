@@ -8,6 +8,7 @@
 
   body {
     background-image: url(./images/papel-de-parede-decorativo-adesivo-direito-justica-2m-vinil.jpg);
+    overflow: hidden;
     background-repeat: no-repeat;
     display: table;
     width: 100vw;
@@ -16,7 +17,6 @@
     color: white;
     background-position: 30% 45%;
     background-size: cover;
-    overflow: hidden;
   }
 
 
@@ -56,4 +56,10 @@ ul {
   gap: 0.5rem;
 
   justify-content: center;
+}
+
+@media (max-width: 999px) {
+  body {
+    overflow: hidden;
+  }
 }
